@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/diana/Desktop/P2_IEP/src/email.cpp
-email.h
-/home/diana/Desktop/P2_IEP/src/email.h
-
 /home/diana/Desktop/P2_IEP/src/email.h
 iostream
 -
@@ -34,10 +30,6 @@ user.h
 unistd.h
 -
 
-/home/diana/Desktop/P2_IEP/src/message.cpp
-message.h
-/home/diana/Desktop/P2_IEP/src/message.h
-
 /home/diana/Desktop/P2_IEP/src/message.h
 iostream
 -
@@ -51,10 +43,6 @@ iostream
 -
 string
 -
-
-/home/diana/Desktop/P2_IEP/src/topic.cpp
-topic.h
-/home/diana/Desktop/P2_IEP/src/topic.h
 
 /home/diana/Desktop/P2_IEP/src/topic.h
 iostream
@@ -69,12 +57,6 @@ message.h
 /home/diana/Desktop/P2_IEP/src/message.h
 subject.h
 /home/diana/Desktop/P2_IEP/src/subject.h
-
-/home/diana/Desktop/P2_IEP/src/user.cpp
-user.h
-/home/diana/Desktop/P2_IEP/src/user.h
-topic.h
-/home/diana/Desktop/P2_IEP/src/topic.h
 
 /home/diana/Desktop/P2_IEP/src/user.h
 iostream

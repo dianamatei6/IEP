@@ -23,7 +23,6 @@ int main()
     usleep(3000);
     u3.readTopic("flori");
     t1.checkTime();
-    u3.publicTopic(t4);
 
     Message m1("Hey",s1);
     Message m2=m1;
