@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/mess.dir/src/attachament.cpp.o"
   "CMakeFiles/mess.dir/src/email.cpp.o"
   "CMakeFiles/mess.dir/src/main.cpp.o"
   "CMakeFiles/mess.dir/src/message.cpp.o"

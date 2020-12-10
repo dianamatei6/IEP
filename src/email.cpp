@@ -16,3 +16,8 @@ std::string Email::getReceiver()
 {
     return receiver;
 }
+void Email::exampleSubject()
+{
+    std::auto_ptr<Subject> s1(new Subject(subj->getText()));
+    std::cout<< "Subject of the mail is "<<s1.get()->getText();
+}

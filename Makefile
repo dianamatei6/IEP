@@ -142,6 +142,33 @@ mess/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mess.dir/build.make CMakeFiles/mess.dir/build
 .PHONY : mess/fast
 
+src/attachament.o: src/attachament.cpp.o
+
+.PHONY : src/attachament.o
+
+# target to build an object file
+src/attachament.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mess.dir/build.make CMakeFiles/mess.dir/src/attachament.cpp.o
+.PHONY : src/attachament.cpp.o
+
+src/attachament.i: src/attachament.cpp.i
+
+.PHONY : src/attachament.i
+
+# target to preprocess a source file
+src/attachament.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mess.dir/build.make CMakeFiles/mess.dir/src/attachament.cpp.i
+.PHONY : src/attachament.cpp.i
+
+src/attachament.s: src/attachament.cpp.s
+
+.PHONY : src/attachament.s
+
+# target to generate assembly for a file
+src/attachament.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mess.dir/build.make CMakeFiles/mess.dir/src/attachament.cpp.s
+.PHONY : src/attachament.cpp.s
+
 src/email.o: src/email.cpp.o
 
 .PHONY : src/email.o
@@ -313,6 +340,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mess"
+	@echo "... src/attachament.o"
+	@echo "... src/attachament.i"
+	@echo "... src/attachament.s"
 	@echo "... src/email.o"
 	@echo "... src/email.i"
 	@echo "... src/email.s"

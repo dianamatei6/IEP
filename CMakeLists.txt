@@ -15,4 +15,6 @@ add_executable( mess
                 ${PROJECT_SRC_DIR}/message.cpp
                 ${PROJECT_SRC_DIR}/message.h
                 ${PROJECT_SRC_DIR}/subject.cpp
-                ${PROJECT_SRC_DIR}/subject.h)
+                ${PROJECT_SRC_DIR}/subject.h
+                ${PROJECT_SRC_DIR}/attachament.cpp
+                ${PROJECT_SRC_DIR}/attachament.h)

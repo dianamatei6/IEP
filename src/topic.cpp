@@ -46,3 +46,13 @@ std::list<Topic>& topics()
     static std::list<Topic> t;
     return t;
 }
+
+void Topic::showAttachament()
+{
+    std::cout<<"Let's attach the subject to this topic\n";
+    Attachament a(this->subj);
+    a.seeSubject();
+    Attachament a1(a);
+    a1.seeSubject();
+    a.seeSubject();             //verify if a is different than NULL
+}

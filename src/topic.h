@@ -7,6 +7,7 @@
 #include<list> 
 #include"message.h"
 #include"subject.h"
+#include"attachament.h"
 #define maxNoTopics 3
 
 class Topic: public Message
@@ -24,6 +25,7 @@ public:
     inline bool operator != (const Topic& t) { return !operator==(t); }
     void checkTime();
     std::string getCategory();
+    void showAttachament();
 };
 
 std::list<Topic>& topics();

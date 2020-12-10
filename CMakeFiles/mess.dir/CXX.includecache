@@ -6,7 +6,27 @@
 
 #IncludeRegexTransform: 
 
+/home/diana/Desktop/P2_IEP/src/attachament.cpp
+attachament.h
+/home/diana/Desktop/P2_IEP/src/attachament.h
+
+/home/diana/Desktop/P2_IEP/src/attachament.h
+iostream
+-
+string
+-
+subject.h
+/home/diana/Desktop/P2_IEP/src/subject.h
+tr1/memory
+-
+
+/home/diana/Desktop/P2_IEP/src/email.cpp
+email.h
 /home/diana/Desktop/P2_IEP/src/email.h
+
+/home/diana/Desktop/P2_IEP/src/email.h
+tr1/memory
+-
 iostream
 -
 string
@@ -27,8 +47,14 @@ topic.h
 /home/diana/Desktop/P2_IEP/src/topic.h
 user.h
 /home/diana/Desktop/P2_IEP/src/user.h
+attachament.h
+/home/diana/Desktop/P2_IEP/src/attachament.h
 unistd.h
 -
+
+/home/diana/Desktop/P2_IEP/src/message.cpp
+message.h
+/home/diana/Desktop/P2_IEP/src/message.h
 
 /home/diana/Desktop/P2_IEP/src/message.h
 iostream
@@ -38,11 +64,19 @@ string
 subject.h
 /home/diana/Desktop/P2_IEP/src/subject.h
 
+/home/diana/Desktop/P2_IEP/src/subject.cpp
+subject.h
+/home/diana/Desktop/P2_IEP/src/subject.h
+
 /home/diana/Desktop/P2_IEP/src/subject.h
 iostream
 -
 string
 -
+
+/home/diana/Desktop/P2_IEP/src/topic.cpp
+topic.h
+/home/diana/Desktop/P2_IEP/src/topic.h
 
 /home/diana/Desktop/P2_IEP/src/topic.h
 iostream
@@ -57,6 +91,14 @@ message.h
 /home/diana/Desktop/P2_IEP/src/message.h
 subject.h
 /home/diana/Desktop/P2_IEP/src/subject.h
+attachament.h
+/home/diana/Desktop/P2_IEP/src/attachament.h
+
+/home/diana/Desktop/P2_IEP/src/user.cpp
+user.h
+/home/diana/Desktop/P2_IEP/src/user.h
+topic.h
+/home/diana/Desktop/P2_IEP/src/topic.h
 
 /home/diana/Desktop/P2_IEP/src/user.h
 iostream

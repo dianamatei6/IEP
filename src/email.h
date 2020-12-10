@@ -1,6 +1,7 @@
 #ifndef EMAIL_H
 #define EMAIL_H
 
+#include <tr1/memory>
 #include<iostream>
 #include<string>
 #include"message.h"
@@ -16,6 +17,7 @@ public:
     ~Email();                                           //destructorul este folosit pentru a sterge un obiect de tip email
     Email(const Email& m);                              //copyconstructorul este folosit la apeluri de metode in user
     std::string getReceiver();
+    void exampleSubject();
 };
 
 #endif

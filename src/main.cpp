@@ -3,6 +3,7 @@
 #include"email.h"
 #include"topic.h"
 #include"user.h"
+#include"attachament.h"
 #include <unistd.h>
 
 int main()
@@ -27,5 +28,7 @@ int main()
     Message m1("Hey",s1);
     Message m2=m1;
     std::cout<<m2.getTextSubj()<<"\n";
+
+    t3.showAttachament();
     return 0;
 }
